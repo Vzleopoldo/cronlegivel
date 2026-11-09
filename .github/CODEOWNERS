@@ -1,0 +1,9 @@
+# Revisores automáticos por área (PGC 2 e 5.2).
+# Vale a ÚLTIMA linha que casar com o arquivo.
+# Quando o par de revisão estiver definido, adicione o usuário dele nas linhas abaixo.
+
+*                    @Vzleopoldo
+/src/                @Vzleopoldo
+/.github/            @Vzleopoldo
+package.json         @Vzleopoldo
+package-lock.json    @Vzleopoldo

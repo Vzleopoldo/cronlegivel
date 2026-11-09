@@ -1,0 +1,27 @@
+name: Funcionalidade
+description: Proponha uma nova funcionalidade ou melhoria
+title: 'feat: '
+labels: ['funcionalidade']
+body:
+  - type: textarea
+    id: problema
+    attributes:
+      label: Qual dor de quem usa cron isto resolve?
+    validations:
+      required: true
+  - type: textarea
+    id: criterios
+    attributes:
+      label: Critérios de aceitação
+      placeholder: |
+        - [ ] Ao digitar "0 9 * * 1-5", o app mostra...
+        - [ ] Expressões inválidas exibem...
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Área
+      options: [tradução (descrição), próximas execuções, validação de erros, interface, pipeline/infra]
+    validations:
+      required: true
