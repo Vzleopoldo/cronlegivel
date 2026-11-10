@@ -50,3 +50,8 @@ npm run build          # gera o site estático em dist/
 
 A `main` é protegida: toda mudança entra por Pull Request revisado, com título no padrão
 Conventional Commits (ex.: `feat: suporte a nomes de meses`). Use o template de PR.
+
+## Gerência de configuração
+
+O processo do projeto (papéis, ambientes, branching, itens de configuração, CI/CD, baselines e
+controle de mudanças) está no [Plano de Gerenciamento de Configuração](docs/plano-gcs.pdf).
